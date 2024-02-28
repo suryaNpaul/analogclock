@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b4b2b293;
+}
+.container {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  background: white;
+  border: 15px solid #b4b2b293;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px, rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.count {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+}
+
+.count1 {
+  top: 40px;
+  right: 150px;
+}
+.count2 {
+  top: 140px;
+  right: 50px;
+}
+.count3 {
+  top: 260px;
+  right: 5px;
+}
+.count4 {
+  top: 390px;
+  right: 35px;
+}
+.count5 {
+  bottom: 42px;
+  right: 130px;
+}
+.count6 {
+  bottom: 0;
+  right: 275px;
+}
+.count7 {
+  bottom: 40px;
+  left: 135px;
+}
+.count8 {
+  bottom: 120px;
+  left: 50px;
+}
+.count9 {
+  bottom: 250px;
+  left: 10px;
+}
+.count10 {
+  bottom: 375px;
+  left: 30px;
+}
+.count11 {
+  top: 50px;
+  left: 130px;
+}
+
+.count12 {
+  top: 50px;
+  left: 130px;
+  top: 5px;
+  left: 264px;
+}
+.center {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 260px;
+  left: 260px;
+  z-index: 99;
+}
+.count3,
+.count6,
+.count9,
+.count12 {
+  font-size: 50px;
+  color: sandybrown;
+}
+
+#hour{
+    height: 150px;
+    width: 12px;
+    background-color: black;
+    border-radius: 30px;
+    position: absolute;
+    top: 135px;
+    left: 280px;
+    z-index: 1;
+    transform-origin: bottom;
+}
+#min{
+    height: 200px;
+    width: 7px;
+    background-color: orange;
+    border-radius: 30px;
+    position: absolute;
+    top: 86px;
+    left: 283px;
+    z-index: 2;
+    transform-origin: bottom;
+}
+#sec{
+    height: 220px;
+    width: 3px;
+    background-color: violet;
+    border-radius: 30px;
+    position: absolute;
+    top: 65px;
+    left: 285px;
+    z-index: 3;
+    transform-origin: bottom;
+}
