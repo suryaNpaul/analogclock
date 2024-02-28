@@ -23,4 +23,4 @@ This project is a simple digital clock designed to display the current time with
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/suryanpaul/analogclock.git
+   https://github.com/suryanpaul/analogclock.git
