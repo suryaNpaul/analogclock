@@ -9,7 +9,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #b4b2b293;
 }
 .container {
   position: relative;
